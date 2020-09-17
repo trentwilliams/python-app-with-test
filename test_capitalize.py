@@ -4,6 +4,7 @@ from capitalize import capital_case, square
 
 def test_capital_case():
     assert capital_case('semaphore') == 'Semaphore'
+    assert capital_case('trent') == 'Trent'
 
 
 @pytest.mark.parametrize("data, expected", [(5, 25),(2, 4), (9, 81), (-3, 9)])
